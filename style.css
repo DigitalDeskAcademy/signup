@@ -83,10 +83,43 @@ button:hover {
 
 /* Utility classes */
 .container {
+  display: flex;
+  height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1em;
 }
+
+.left {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-top: 14rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 2rem;
+  margin-top: 7rem;
+}
+.cta-text{
+    margin-top: 4rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 .text-center {
   text-align: center;

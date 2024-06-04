@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Practice Enviornment</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo">
+          <h1>Odin Logo1</h1>
+        </div>
+      </div>
 
+      <!-- Hero text section -->
+      <div class="right">
+        <div class="upper-pararaph">
+          <h1 class="main-text">
+            This is not a real online service! You know you need somrthing like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+          </h1>
+          <h2 class="sub-text">You <em>know</em> you want to.</h2>
+          <h2 class="cta-text">Let's do this!</h2>
+        </div>
+
+        <!-- Form Fields -->
+        <div class="form-container">
+            <form action="" class="sign-up-form">
+                <!-- Form content will go here -->
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </form>
+        </div>
+
+        <!-- CTA footer -->
+        <div class="cta-footer">
+            <button class="btn-cta">Create account</button>
+            <p class="cta-have-account">Already have an account? Log in</p>
+
+        </div>
+
+      </div>
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

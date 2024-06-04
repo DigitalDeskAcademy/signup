@@ -2,6 +2,6 @@
 
 // Code goes here
 
-let answer = parseInt(prompt("Please enter a number"));
+
 
 
