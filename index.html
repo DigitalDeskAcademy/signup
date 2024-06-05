@@ -17,7 +17,7 @@
 
       <!-- Hero text section -->
       <div class="right">
-        <div class="upper-pararaph">
+        <div class="upper-paragraph">
           <h1 class="main-text">
             This is not a real online service! You know you need somrthing like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
           </h1>
@@ -26,27 +26,37 @@
         </div>
 
         <!-- Form Fields -->
-        <div class="form-container">
             <form action="" class="sign-up-form">
                 <!-- Form content will go here -->
                 <div class="form-group">
-                    <label for="first-name">First Name</label>
+                    <label for="first-name">FIRST NAME</label>
                     <input type="text" id="first-name" name="first-name" required>
                 </div>
                 <div class="form-group">
-                    <label for="last-name">Last Name</label>
+                    <label for="last-name">LAST NAME</label>
                     <input type="text" id="last-name" name="last-name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">EMAIL</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+                <div class="form-group">
+                    <label for="tel">PHONE NUMBER</label>
+                    <input type="tel" class="phone" name="phone" required>
+                </div>
+                <div class="form-group form-password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required pattern=".{6,}" title="Password must be at least 6 characters long">
+                </div>
+                <div class="form-group form-password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" class="confirm-password" name="confirm-password" required>
+                </div>
             </form>
-        </div>
 
         <!-- CTA footer -->
         <div class="cta-footer">
-            <button class="btn-cta">Create account</button>
+            <button class="button-gradient">Create account</button>
             <p class="cta-have-account">Already have an account? Log in</p>
 
         </div>
